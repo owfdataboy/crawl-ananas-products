@@ -111,7 +111,7 @@ class CrawlProducts:
         for product in product_links:
             self.get_into_link(product)
             infos = self.get_product_details()
-            self.write_csv(infos, 'products.csv')
+            self.write_csv(infos, 'ananas_products.csv')
         self.browser.close()
 
 
